@@ -1,0 +1,105 @@
+/* common shared styles */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans" sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin-top: 140px;
+}
+
+header {
+  background-image: url("../images/banner/banner3.png");
+  background-size: 100% 100%;
+}
+.banner {
+  display: flex;
+  justify-content: end;
+}
+.banner-content {
+  max-width: 525px;
+  text-align: end;
+  padding: 216px 230px 166px;
+}
+
+.banner-content > h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner-content > p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding: 20px 35px;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.7s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn-primary:hover {
+  color: #ffffff;
+}
+.btn-primary::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #005fac;
+  z-index: -1;
+  transition: 0.7s ease all;
+  transform: scale(0, 1);
+  transform-origin: top right;
+  transition: transform 50ms cubic-bezier(0.86 0, 0.7, 1);
+  transition-timing-function: cubic-bezier(0.86 0, 0.7, 1);
+}
+.btn-primary:hover::after {
+  transform: scale(1, 1);
+  transform-origin: right top;
+}
+
+/* failure style start */
+.failure-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.failure-content {
+  max-width: 420px;
+}
+.failure-content h2 {
+  width: 288px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.failure-content p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+
+.failure-list li {
+  font-size: 1em;
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(0,5)"><path d="M20 6L9 17L4 12" stroke="%2316D887" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>');
+}
+.failure-list li::marker {
+  font-size: 2.5em;
+}

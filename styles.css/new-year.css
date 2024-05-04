@@ -137,3 +137,26 @@ header {
   font-weight: 500;
   margin-top: 0;
 }
+
+/* mindset section */
+
+/* mindset styles */
+.positive-mindset {
+  margin-top: 5rem;
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60%;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  color: white;
+  padding: 35px 65px;
+}
+.mindset-title {
+  max-width: 460px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}

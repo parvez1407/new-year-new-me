@@ -160,3 +160,34 @@ header {
   font-size: 40px;
   font-weight: 700;
 }
+
+/* footer part started */
+footer {
+  background-color: #151414;
+  padding: 130px 230px;
+  margin-top: 130px;
+
+  color: #f8f8f8;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  max-width: 485px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.footer-description .email .phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.phone {
+  margin-bottom: 30px;
+}

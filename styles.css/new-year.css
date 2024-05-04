@@ -39,7 +39,7 @@ header {
   border-radius: 5px;
   background: #fff;
   border: none;
-  padding: 20px 35px;
+  padding: 20px 40px;
   color: #005fac;
   font-size: 20px;
   font-weight: 600;
@@ -190,4 +190,33 @@ footer {
 }
 .phone {
   margin-bottom: 30px;
+}
+.footer-img a {
+  margin-right: 20px;
+  width: 46;
+}
+.btn-subscribe {
+  display: block;
+  margin-top: 16px;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 5px;
+  background: #005fac;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn-subscribe:hover {
+  background: #fff;
+  color: #005fac;
+}
+.footer-contact input {
+  background: #151414;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 21px;
+  width: 325px;
+  margin-top: 38px;
+  margin-bottom: 16px;
+  color: #ffffff;
 }

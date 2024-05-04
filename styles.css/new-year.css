@@ -191,7 +191,7 @@ footer {
 .phone {
   margin-bottom: 30px;
 }
-.footer-img a {
+.footer-img > a {
   margin-right: 20px;
   width: 46;
 }
